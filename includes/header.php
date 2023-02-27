@@ -12,11 +12,13 @@
 <header>
     <nav>
         <menu>
-            <li class="site-title"><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/index.php">Chris Dempewolf</a></li>
+            <li class="site-title"><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/index.php">Chris Dempewolf</a>
+            </li>
             <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/about.php">about</a></li>
             <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/notes.php">notes</a></li>
-            <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/recipes.php">recipes</a></li>
+<!--            <li><a href="http://--><?php //echo $_SERVER['HTTP_HOST'] ?><!--/recipes.php">recipes</a></li>-->
         </menu>
     </nav>
 </header>
 <main>
+    <article>
