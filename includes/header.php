@@ -11,10 +11,10 @@
 <header>
     <nav>
         <menu>
-            <li><a href="../content/index.php">Home</a></li>
-            <li><a href="../content/about.php">About</a></li>
-            <li><a href="../content/notes.php">Notes</a></li>
-            <li><a href="../content/recipes.php">Recipes</a></li>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./about.php">About</a></li>
+            <li><a href="./notes.php">Notes</a></li>
+            <li><a href="./recipes.php">Recipes</a></li>
         </menu>
     </nav>
 </header>
