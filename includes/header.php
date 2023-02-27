@@ -11,10 +11,10 @@
 <header>
     <nav>
         <menu>
-            <li><a href="./index.php">Home</a></li>
-            <li><a href="./about.php">About</a></li>
-            <li><a href="./notes.php">Notes</a></li>
-            <li><a href="./recipes.php">Recipes</a></li>
+            <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/index.php">Home</a></a></li>
+            <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/about.php">About</a></li>
+            <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/notes.php">Notes</a></li>
+            <li><a href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/recipes.php">Recipes</a></li>
         </menu>
     </nav>
 </header>
