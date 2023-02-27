@@ -1,0 +1,54 @@
+* {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    color: #dddddd;
+    font-family: roboto;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 32px;
+    margin-bottom: 128px;
+}
+
+nav menu li {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+nav menu li a {
+    color: #aaaaaa;
+}
+
+.site-title {
+    flex: 2;
+    font-size: 48px;
+}
+
+h1 {
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+
+main {
+    margin: 12px;
+}
+
+.content-list {
+    margin-top: 24px;
+    list-style: none;
+}
